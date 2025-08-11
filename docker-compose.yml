@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  n8n-main:
+  n8n:
     image: n8nio/n8n:latest
     restart: always
     container_name: electus-n8n
